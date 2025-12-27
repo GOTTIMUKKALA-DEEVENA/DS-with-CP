@@ -11,7 +11,7 @@ class Student{
 
 class Main {
     public static void main(String[] args){
-       Student b = new Student("Uday Karthik",18);
+       Student b = new Student("Deevena",19);
        System.out.println(b.name);
        System.out.println(b.age);
     }
