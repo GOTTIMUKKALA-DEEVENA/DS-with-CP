@@ -1,16 +1,18 @@
-class S {
-    int a;
-    String b;
-    float c;
-
-    int sumOfTwo(int a, int b) {
-        int c = a + b;
-        return c;
+class Student{
+    String name;
+    int age;
+    
+    Student(String name, int age){
+        this.name = name;
+        this.age = age;
+        
     }
+}
 
-    public static void main(String[] args) {
-        S obj = new S();               // create object
-        int result = obj.sumOfTwo(2, 9); // call method
-        System.out.println(result);    // output
+class Main {
+    public static void main(String[] args){
+       Student b = new Student("Uday Karthik",18);
+       System.out.println(b.name);
+       System.out.println(b.age);
     }
 }
